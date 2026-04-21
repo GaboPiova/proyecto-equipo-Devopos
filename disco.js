@@ -14,7 +14,7 @@ function checkDisco() {
         const disponible = datos[2];
         const porcentaje = datos[3];
 
-        return 'DISCO: Total: ${total} | Usado: ${usado} | Disponible: ${disponible} | Uso: ${porcentaje};'
+        return `DISCO: Total: ${total} | Usado: ${usado} | Disponible: ${disponible} | Uso: ${porcentaje}`;
     } catch (error) {
         return "DISCO: No se pudo obtener la información (Error de sistema)";
     }
