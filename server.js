@@ -6,6 +6,7 @@ const path = require('path');
 const checkCPU = require('./cpu');
 const checkRAM = require('./ram');
 const checkDisco = require('./disco');
+const checkSO = require('./SO');
 
 const PORT = 3000;
 
@@ -17,7 +18,8 @@ app.get('/api/status', (req, res) => {
     res.json({
         cpu: checkCPU(),
         ram: checkRAM(),
-        disco: checkDisco()
+        disco: checkDisco(),
+        so: checkSO()
     });
 });
 
