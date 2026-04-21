@@ -14,4 +14,4 @@ JavaScript (Node.js)
 2. Instalar Node.js (si no está instalado).
 3. Ejecutar en terminal:
    ```bash
-   node index.js
+   node server.js
