@@ -5,6 +5,7 @@ Prácticas de DevOps con Github
 - Gabriel Piovano: Módulo RAM 
 - Alejandro Corigliani: Módulo CPU (chequeo real con Node.js)
 - Sebastian Furrer: Módulo Disco
+- Maximiliano Astor: Módulo SO.js (Muestra de datos del SO)
 
 ## Lenguaje elegido
 JavaScript (Node.js)
