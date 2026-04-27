@@ -1,4 +1,13 @@
 {
+  "name": "proyecto-equipo-Devopos",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "node --check server.js cpu.js ram.js disco.js SO.js index.js",
+    "test": "node --test ./test/smoke.test.js"
+  },
   "dependencies": {
     "express": "^5.2.1"
   }
